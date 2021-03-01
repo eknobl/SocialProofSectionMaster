@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+/* VARIABLES */
+root {
+  --dark-magenta: #382038;
+  --light-magenta: #ab2260;
+  --dark-neutral: (hsl(303, 10%, 53%));
+  --light-neutral: (hsl(300, 24%, 96%));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Spartan", sans-serif;
+}
+
+.contenedor {
+  width: 375px;
+  height: 1530px;
+  display: block;
+  padding: 25px;
+}
+
+.decoracion1 {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+
+.decoracion2 {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 1030px;
+}
+
+.decoracion3 {
+  position: absolute;
+  left: -2000px;
+}
+
+.decoracion4 {
+  position: absolute;
+  left: -2000px;
+}
+
+.principal {
+  padding-top: 50px;
+}
+
+.cabeza1 {
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+  color: #382038;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+  color: #382038;
+  line-height: 24px;
+}
+
+.calificacion {
+  width: 100%;
+  height: 77px;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.calificacionGeneral {
+  padding-bottom: 50px;
+}
+
+.starContainer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 15px 0px;
+}
+
+h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  color: #382038;
+}
+
+.comentario {
+  width: 100%;
+  height: 245px;
+  background-color: #382038;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  color: white;
+  padding: 40px;
+}
+
+.retrato {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.datosGeneral {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+h5 {
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+  color: #ab2260;
+  line-height: 24px;
+}
+
+p {
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  line-height: 22px;
+}
+
+@media (min-width: 1285px) {
+  .contenedor {
+    width: 1440px;
+    height: 800px;
+  }
+
+  .decoracion1 {
+    position: absolute;
+    left: -2000px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .decoracion2 {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 1030px;
+    left: -2000px;
+  }
+
+  .decoracion3 {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+  }
+
+  .decoracion4 {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 358px;
+    top: 170px;
+    z-index: -5;
+  }
+
+  .principal {
+    display: flex;
+  }
+
+  .cabeza1 {
+    padding: 115px 15% 50px 10%;
+    width: 50%;
+  }
+
+  h1 {
+    font-weight: 700;
+    text-align: left;
+    font-size: 50px;
+    color: #382038;
+    padding-bottom: 15px;
+  }
+
+  h2 {
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    color: #382038;
+    line-height: 28px;
+  }
+
+  .calificacion {
+    width: 500px;
+    height: 77px;
+    background-color: #f7f2f7;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .calificacionGeneral {
+    width: 720px;
+    padding: 125px 125px 100px 0px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  h3 {
+    padding-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    color: #382038;
+  }
+
+  .calificacion1 {
+    justify-self: start;
+  }
+
+  .calificacion2 {
+    justify-self: center;
+  }
+
+  .calificacion3 {
+    justify-self: end;
+  }
+
+  .comentarioGeneral {
+    display: flex;
+    justify-content: center;
+    padding: 0px 70px;
+    gap: 40px;
+  }
+
+  .comentario {
+    width: 350px;
+    height: 230px;
+    background-color: #382038;
+    border-radius: 10px;
+    color: white;
+    margin: 0px;
+    padding: 40px;
+  }
+
+  .secundario {
+    height: 300px;
+  }
+
+  .comentario2 {
+    margin-top: 30px;
+  }
+
+  .comentario3 {
+    margin-top: 60px;
+  }
+}
